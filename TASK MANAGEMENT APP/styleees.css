@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+#header{
+    background-color: rgb(61, 198, 61);
+    text-align: center;
+    padding: 30px;
+    margin-top: 0%;
+}
+.task-container{
+    display: flex;
+    flex-direction: column;
+}
+.csss{
+    margin: 20px;
+    padding: 20px;
+}
+#labels{
+    margin-left: 20px;
+    font-size: large;
+}
+button{
+    background-color:rgb(61, 198, 61);
+    border-radius: 5px;
+    font-size: x-large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(244, 191, 91);
+}
+button:active{
+    background-color: orange;
+}
+.result-item{
+    background-color: rgb(191, 210, 204);
+    margin: 20px;
+    padding: 10px;
+}
